@@ -1,10 +1,164 @@
 import React, { Component } from "react";
+import Footer from "./Footer";
+import Header1 from "./Header1";
+import Header2 from "./Header2";
+import HideHeader from "./HideHeader";
 // import App from "../App";
 
 class Home extends Component {
     render() {
         return(
-            <div>Home Page</div>
+            <div>
+                <HideHeader />
+                <Header1 />
+                <Header2 />
+                hello
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                hi
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <Footer />
+            </div>
         )
     }
 }

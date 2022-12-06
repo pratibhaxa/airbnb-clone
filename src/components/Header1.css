@@ -1,0 +1,8 @@
+.header1-wrapper {
+    background-color: whitesmoke;
+    display: flex;
+}
+.airbnb-image {
+    width: 80px;
+    height: 30px;
+}
