@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import homeIcon from '../homeIcon-noBG.png';
 import searchIcon from '../searchIcon.png';
@@ -171,7 +172,7 @@ class Header1 extends Component {
     render() {
         return(
             <Container>
-                <Image1 src={homeIcon}/>
+                <Link to='/'><Image1 src={homeIcon}/></Link>
                 <InputWrapper>
                     <Text1>Anywhere</Text1>
                     <Partition>|</Partition>

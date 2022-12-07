@@ -74,10 +74,14 @@ const Currency = styled.div`
 
 const Support = styled.div`
     display: flex;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+    margin-left: 23px;
 `;
 
 const Text2 = styled.div`
-    margin-left: 23px;
     font-size: 0.87em;
     font-weight: 600;
     margin-top: 12px;
@@ -89,24 +93,67 @@ const Icon = styled.img`
     padding-left: 12px;
 `;
 
+const LeftContainer = styled.div`
+    display: flex;
+    margin-left: 40px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 1.05em;
+`;
+
+const T1 = styled.div`
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+`;
+
+const T2 = styled.div`
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+`;
+
+const T3 = styled.div`
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+`;
+
+const T4 = styled.div`
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+`;
+
+const T5 = styled.div`
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+`;
+
 class Footer extends Component {
     render() {
         return(
             <Container>
                 <Text1>
-                    <ul>
+                    <LeftContainer>
                         © 2022 Airbnb, Inc.
                         &nbsp; • &nbsp;
-                        Privacy
+                        <T1>Privacy</T1>
                         &nbsp; • &nbsp;
-                        Terms
+                        <T2>Terms</T2>
                         &nbsp; • &nbsp;
-                        Sitemap
+                        <T3>Sitemap</T3>
                         &nbsp; • &nbsp;
-                        Company details
+                        <T4>Company details</T4>
                         &nbsp; • &nbsp;
-                        Destinations
-                    </ul>
+                        <T5>Destinations</T5>
+                    </LeftContainer>
                 </Text1>
                 <Translation>
                     <Globe src={globe}/>
